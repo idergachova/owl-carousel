@@ -1,0 +1,42 @@
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .header{ 
+    padding: 30px 100px 0 100px;
+
+    &__nav{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &__ul {
+        display: flex;
+        justify-content: flex-start;
+        gap: 80rem;
+    }
+    
+    &__a{
+        color: $first;
+        font-family: $ff-main;
+        font-size: 18rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.9px;
+    }
+    &__social{
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+    }
+} 
+
+.header__logo img {
+    width: 30rem;
+    height: 30rem;
+}

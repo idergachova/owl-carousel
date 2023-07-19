@@ -1,0 +1,31 @@
+.main-section {
+    padding: 130rem 100rem 50rem 100rem;
+    overflow-x: hidden;
+
+    &__title {
+        color: $first;
+        font-family: $ff-main;
+        font-size: 94rem;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+        letter-spacing: -2.88rem; 
+    }
+
+    // &__info {
+    //     display: grid;
+    //     grid-template-columns: 1fr 2fr;
+    //     gap: 24rem;
+    // }
+}
+
+ h4{
+        color: $first;
+        font-family: $ff-main;
+        font-size: 16rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.9rem;
+        text-align: right;
+ }

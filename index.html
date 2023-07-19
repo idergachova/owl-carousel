@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Carousel</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <a href="/" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+                <nav class="header__nav">
+                    <ul class="header__ul" id="headerMenu">
+                        <li class="header__li"><a href="/" class="header__a">About us</a></li>
+                        <li class="header__li"><a href="/" class="header__a">Gallery</a></li>
+                        <li class="header__li"><a href="/" class="header__a">Packages</a></li>
+                        <li class="header__li"><a href="/" class="header__a">Contact</a></li>
+                    </ul>
+                    <div class="container header__social">
+                        <a href="/"> <img src="img/instagram.svg" alt="instagram"></a>
+                        <a href="/"> <img src="img/facebook.svg" alt="facebook"></a>
+                </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="main-section">
+            <div class="container main-section__container">
+                <div class="main-section__info">
+                    <div class="main-section__title">Black&amp;White <br> emotion</div>
+                    <div class="owl-carousel owl-theme">
+                         <div class="item">
+                            <img src="img/smile.jpg" alt="smile">
+                            <h4>smile</h4>
+                        </div>
+                        <div class="item">
+                            <img src="img/crying.jpg" alt="crying">
+                            <h4>cry</h4>
+                        </div>
+                        <div class="item">
+                            <img src="img/fear.jpg" alt="fear">
+                            <h4>fear</h4>
+                        </div>
+                        <div class="item">
+                            <img src="img/pleasure.jpg" alt="pleasure">
+                            <h4>pleasure</h4>
+                        </div>
+                        <div class="item">
+                            <img src="img/cry.jpg" alt="cry">
+                            <h4>pain</h4>
+                        </div>
+	                </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<script
+src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+crossorigin="anonymous"></script>
+<script src="owl.carousel.min.js"></script>
+<script src="index.js"></script>
+</html>
